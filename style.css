@@ -8,6 +8,11 @@ body {
     text-align: center;
 }
 
+#heading {
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -45,5 +50,28 @@ body {
     color: white;
     border-radius: 5px;
     border: none;
+}
 
+#new-bttn {
+    margin-top: 100px;
+    height: 40px;
+    width: 120px;
+    background-color: #191913;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 100px;
+}
+
+#mssg, #draw-mssg {
+    color: rgb(16,25,148);
+    font-size: 40px;
+}
+
+.mssg-container, .draw-container {
+    margin-top: 200px;
+}
+
+.hide {
+    display: none;
 }
